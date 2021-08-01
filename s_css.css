@@ -1,0 +1,235 @@
+.cart-container{
+    background: radial-gradient(rgb(75, 26, 26),#000000);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.logo img{
+    background: #fff;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 193, 152);
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 193, 152);
+}
+
+p{
+    color: rgb(189, 186, 231);
+}
+.container1{
+    padding: 10px;
+    display: flex;
+    /* height: 100vh; */
+    font-size: larger;
+    /* position: relative; */
+    }
+    .first{
+    flex:60%;
+    margin: auto;
+    /* padding-left: 15%; */
+    }
+    .second{
+    flex: 40%;   
+     height: 100vh;
+    background: url(./1212.jpg) no-repeat center center /cover;
+    /* border-radius: 15px; */
+    border-left: solid rgb(126, 124, 124) 2px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    }
+    
+    
+    img{
+    object-fit: cover;
+    }
+    form {
+            background-color: rgb(255, 255, 255);
+            /* text-align: center; */
+            padding: 0% 15%;
+            
+        }
+        form  div {
+            padding: 10px;
+        }
+        form  button {
+            padding: 10px 50px;
+            border-radius: 20px;
+            margin:0px 50px;
+            font-family: 'Akaya Telivigala', cursive;
+            font-size: 20px;
+        }
+        .btn1{
+            background-color: #5cd1ee;
+            color: rgb(29, 22, 18);
+            font-size: 20px;
+            width: 40%;
+            margin: 0px;
+            padding: 10px;
+        }
+        #arrow{
+      color: rgb(63, 60, 60);
+        }
+    .btn1:hover{
+        background-color: rgba(253, 239, 239, 0);
+        border:2px solid black;
+        color: black;
+        font-size: larger;
+    
+
+    }
+    #arrow:hover{
+    
+    }
+
+        /* input:checked {
+    height: 20px;
+    width: 20px;
+    background-color: #f1c75c;
+    } */
+    a{
+    color: #3a3835;
+    text-decoration: none;
+    }
+    
+    body{
+    font-family: 'Akaya Telivigala', cursive;
+    }
+    .heading{
+    color: #414141;
+    text-align: center;
+    padding: 20px;
+    
+    }
+    input[type=text],input[type=email],input[type=password],select{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    input[type=date]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    ::selection {
+    color: white;
+    background: #131211;
+    }
+    
+    hr{
+    width: 40%;
+    background-color: #86764e;
+    }  
+
+    h4{
+        display: inline;
+        
+    }
+
+
+    /*------------footer--------------*/
+
+    .footer{
+        background: #000;
+        color: #8a8a8a;
+        font-size: 14px;
+        padding: 60px 0 20px;
+    }
+    
+    .footer p{
+        color: #8a8a8a;
+    }
+    
+    .footer h3{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+        min-width: 250px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .footer-col-1{
+        flex-basis: 30%;
+    }
+    
+    .footer-col-2{
+        flex: 1;
+        text-align: center;
+    }
+    
+    .footer-col-2 img{
+        margin-bottom: 20px;
+        background: #fff;
+    }
+    
+    .footer-col-3, .footer-col-4{
+        flex-basis: 12%;
+        text-align: center;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    
+    .footer hr{
+        border: none;
+        background: #b5b5b5;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    .Copyright{
+        text-align: center;
+    }
+    
+
+/*--------------main windoe----------*/
+.main-w{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+}
